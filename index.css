@@ -1,0 +1,285 @@
+body{
+   overflow-x: hidden;
+}
+table, th, td{
+	border-color: black;
+	border: colapse;
+	font-size: 20px;
+	padding: 20px;
+	border-radius: 10px;
+}
+table{
+	background-color: #D7D4CB;
+}
+th{
+	background-color: #FFF9A7;
+	border-width: 20px;
+}
+td{
+	background-color: #DFEAE6;
+	border-width: 20px;
+}
+body{
+	background-color: #FFFBEF;
+	font-family: consolas;
+}
+input{
+	font-family: consolas;
+}
+select{
+	font-family: consolas;
+}
+header{
+	display: flex;
+	align-content: center;
+	background-color: #7B7670;
+	margin: -8px;
+}
+.referencias img{
+	float: right;
+}
+.title{
+	display: inline-flex;
+	align-content: center;
+	padding-left:20% ;
+}
+.icono{
+	width: 80px;
+	height: 80px;
+}
+.cuerpo{
+	display: flex;
+}
+.navegacion ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  background-color: #D7D4CB;
+
+}
+.navegacion li a {
+  display: block;
+  color: #000;
+  padding: 8px 20px;
+  text-decoration: none;
+}
+.navegacion li a:hover {
+  background-color: #7B7670;
+  color: white;
+}
+.contenido{
+	margin: 20px;
+}
+.navegacion{
+	flex-basis: 20%;
+	margin: 60px;
+}
+.imagen{
+	float: right;
+}
+.iconol{
+	width: 80px;
+	height: 80px;
+}
+.hora{
+	height: 90px;
+	weigth: 200px;
+	padding-left:100px;
+
+}
+.carta{
+	display: flex;
+	margin: 20px;
+}
+.carta .imagen{
+ width: 350px;
+ height: 270px;
+ margin-left: 30px;
+}
+.carta p{
+	font-size: 21px;
+	margin: 0;
+}
+h3{
+	font-size: 24px;
+}
+.datos li{
+	font-size: 20px;
+}
+.boton{
+	background-color: #E4C6A0;
+	border-radius: 10px;
+	font-family: consolas;
+	border: none;
+	height: 50px;
+	width: 200px;
+	font-size: 15px;
+}
+h4{
+	font-size: 20px;
+}
+footer p{
+	text-align: right;
+}
+footer{
+	display: flex;
+	background-color: #7B7670;
+	height: 100pxx;
+	width: 100%;
+	margin-bottom: -2px;
+}
+.regreso{
+	flex-basis: 77%;
+	margin: 5px;
+}
+.creditos{
+	margin-top: 45px;
+}
+.hora{
+	font-size: 18px;
+	color: white;
+}
+
+@media (min-width: 815px){
+			header{
+				position: fixed;
+				width: 100%;
+			}
+			footer{
+				width: 100%;
+			}
+}
+@media (min-width: 1440px){
+		html{
+			margin: 0;
+		}
+		html{
+			width: 1440px;
+		}
+		.cuerpo{
+			width: 100%;
+		}
+		.navegacion{
+			margin: 20px;
+		}
+		body{
+			margin: 0;
+		}
+		footer{
+			margin: 0;
+			padding-right: 40px;
+		}
+		header{
+			margin: 0;
+		}
+		.contenido{
+			margin-top: 100px;
+			width: 1100px;
+		}
+		.navegacion{
+			margin-top: 130px;
+		}
+
+}
+@media (max-width: 1024px){
+		.cuerpo {
+			display: inline-block;
+			text-align: center;
+			justify-content: center;
+ 			align-items: center;
+		}
+		.carta {
+			display: inline-block;
+		}
+		.carta .imagen{
+					margin-left: 150px;
+					margin-right: 150px;
+					margin-top: 20px;
+		}
+		.navegacion ul{
+			width: 500px;
+		}
+		.navegacion{
+			margin: 0px;
+			margin-top: 130px;
+			display: flex;
+  		justify-content: center;
+  		align-items: center;
+  		margin-bottom: -50px;
+		}
+		footer{
+		width: 1070px;
+		margin-left: -10px;
+		margin-bottom: -10px;
+		margin-right: -10px;
+		padding-right: 5px;
+
+	}
+	footer p{
+		margin-right: 5px;
+	}
+	footer .icono{
+		margin-top: 15px;
+	}
+		.contenido{
+			margin-top: 100px;
+		  justify-content: center;
+		  align-items: center;
+		}
+		.contenido .imagen{
+			float: none;
+		}
+		.title h1{
+			width: 50%;
+		}
+		.referencias{
+			font-size: 10px;
+		}
+		.introduccion h3{
+			margin-top: 0px;
+		}
+}
+@media (min-width: 768px){
+	html{
+		margin-right: -50px;
+	}
+	p{
+		font-size: 16px;
+	}
+	.datos{
+		margin-left: 40px;
+	}
+	form{
+		font-size: 20px;
+	}
+	footer img{
+		margin-left: 20px;
+	}
+}
+@media (min-width: 375px){
+	.referencias{
+		font-size: ;
+	}
+}
+@media (min-width: 2560px ){
+		html{
+			margin: 0;
+			width: 2560px;
+		}
+		.cuerpo{
+			display: flex;
+  		justify-content: center;
+		}
+		footer{
+			position: relative;
+			width: 100%;
+		}
+}
+@media (min-width: 1655px ){
+		footer{
+			position: absolute;
+		}
+}
+
+

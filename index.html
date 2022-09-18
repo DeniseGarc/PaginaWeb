@@ -1,0 +1,150 @@
+<!--Alicia Denise Garcia Acosta
+	5AMP
+	16/SEP/2022
+	Objetivo: crear una Página Web -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+			<meta charset="utf-8">
+			<title>Pingüinos</title>
+			<link rel="stylesheet" href="index.css">
+			<script type="text/javascript">
+				function mostrar_hora() {
+				var horas = document.getElementById('tiempo');
+				fecha = new Date();
+				horas.innerHTML = fecha.toLocaleTimeString();
+				}
+				function popup() {
+					alert("¡Has llegado al final de la página, muchas gracias por tu visita!");
+				}
+			</script>
+	</head>
+	<body>
+		<header id="inicio">
+	 			<div class="hora">
+					<p>Hora actual:</p>	
+					<div id="tiempo"></div>
+				</div>
+				<div class="title">
+	 			<img src="icono2.png" class="iconol"><h1>Conoce sobre los pingüinos</h1><img src="icono3.png" class="iconol">	
+	 			</div>
+		</header>
+
+			<div class="cuerpo">
+				<div class="navegacion">
+					<ul>
+						<li><a href="#intro">Introducción</a></li>
+						<li><a href="#datos">Datos curiosos</a></li>
+						<li><a href="#sitios">Sitios de interés</a></li>
+						<li><a href="#saber">Saber más</a></li>
+						<li><a href="#ref">Créditos</a></li>
+					</ul>
+				</div>
+				<div class="contenido">
+					<section class="Introduccion"><!--AÑADIR INFORMACION E IMAGENES-->
+						<h3 id="intro">Introducción</h3>
+							<div class="carta">
+						<p>Los pingüinos son aves adaptadas a la vida marina que sólo habitan en el hemisferio sur, con colonias en Sudáfrica, Sudamérica, Antártida, Australia y Nueva Zelanda. Las 18 especies actuales, especializadas en el buceo para alimentarse, surgieron entre 10 y 40 millones de años atrás a partir de un ancestro que era un ave voladora, aunque ninguna de las actuales puede hacerlo. Los registros muestran que el fósil más antiguo data de unos 55 millones de años.</p>
+						<img src="penguin1.jpg" class="imagen"><!--FOTOS DE PINGUINOS-->
+							</div>
+							<div class="carta">
+						<p>Su tamaño puede ser muy variable, desde el Pingüino Azul de Australia y Nueva Zelanda, con sólo 30 cm de altura y un kilogramo de peso, hasta el Emperador, que vive en la Antártida y puede alcanzar hasta 1.40 metros de altura y 40 kg. Acorde a su pequeño tamaño, el Pingüino Azul bucea a poca profundidad, mientras que el Emperador puede alcanzar profundidades de hasta 500 m, para lo cual permanece sin respirar por 23 minutos.</p>
+						<img src="penguin7.png" class="imagen"><!--FOTO DEL PINGUINO AZUL-->
+							</div>
+							<div class="carta">
+						<p>Actualmente, los pingüinos poseen un estado de conservación particularmente frágil. De las 18 especies, 11 están consideradas como amenazadas o vulnerables por la Unión Internacional de la Conservación de la Naturaleza (IUCN, por su sigla en inglés) y 14 especies han sido elevadas a una categoría más severa de conservación en los últimos 24 años. Entre los principales problemas de conservación se encuentran el cambio climático, la contaminación marina, el mal manejo de las pesquerías comerciales, la degradación de su hábitat de reproducción, la introducción de depredadores y el disturbio humano.</p>
+						<img src="penguin5.jpg" class="imagen"><!--PINGUINOS EN ESTADO DE EXTIONCION-->
+							</div>
+					</section>
+					<div class="datos"><!--PONER LOS DATOS INTERESANTES EN FORMA DE LISTA(TALVEZ IMAGENES)-->
+						<h3 id="datos">10 Datos interesantes sobre los pingüinos</h3>
+						<ol>
+							<li>Existen 18 especies de pingüinos.</li>
+							<li>Ellos no pueden volar: debido a la evolución sus alas se convirtieron en aletas, las cuales son más adecuadas para la vida marina.</li>
+							<li>A veces se deslizan de panza sobre las laderas heladas a fin de ahorrar tiempo y energía.</li>
+							<li>Viven en colonias de cientos o hasta miles de individuos.</li>
+							<li>Todos tienen un camuflaje natural contra los depredadores. La parte de adelante, que es blanca, los protege de los carnívoros que acechan desde abajo: su lomo negro los hace menos visibles para los depredadores acuáticos que acechan desde arriba.</li>
+							<li>Pueden beber agua salada, pues tienen una glándula especial que filtra el exceso de sal de su organismo.</li>
+							<li>Los pingüinos se alimentan en especial de peces.</li>
+							<li>Su plumaje consta de tres capas. También tienen una capa de grasa bajo la piel y un sistema de vasos sanguíneos especializado en las aletas y en las patas que les ayuda a no perder calor.</li>
+							<li>La especie más pequeña es el pingüino azul, que mide solo 40 centímetros y pesa aproximadamente un kilo.</li>
+							<li>Mudan todas sus plumas a la vez, pasan dos o tres semanas en tierra mientras experimentan lo que se llama “la muda catastrófica”.</li>
+						</ol>
+
+						<h3>Preguntas sobre los pingüinos</h3>
+						<table>
+						  <tr>
+						    <th>¿Los pingüinos tienen plumas?</th>
+						    <td>Aunque mucha gente no lo conoce, los pingüinos son aves que no vuelan pero que sí tienen plumas. Se trata de aves Sphenisciformes.</td>
+						  </tr>
+						  <tr>
+						    <th>¿El pingüino es un ave?</th>
+						    <td>Los pingüinos nacen del huevo, tienen plumas y son aves oceánicas, palmípedas puesto que tienen patas palmeadas.</td>
+						  </tr>
+						  <tr>
+						  	<th>¿Los pingüinos vuelan?</th>
+						  	<td>No. Aunque son aves, los pingüinos no vuelan. Se trata de una especie que perdió hace miles de años la capacidad de volar puesto que no era necesario para que pudieran mantenerse con vida.</td>
+						  </tr>
+						  <tr>
+						  	<th>¿Los pingüinos son mamíferos?</th>
+						  	<td>Existen aproximadamente unas dieciocho especies de pingüinos, pero ninguna pertenece a los mamíferos.</td>
+						  </tr>
+						</table>
+					</div>
+					<div class="sitios"><!--AGREGAR SITIOS SOBRE PINGUINOS Y EL DOCUMENTAL EN YOUTUBE DAR UNA PEQUEÑA DESCRIPCION DE A QUE LLEVA EL ENLACE-->
+						<h3 id="sitios">Sitios de interés</h3>
+							<a href="https://www.youtube.com/watch?v=YjHeDz_jVSU" target="blank">Nuestros Pingüinos, Nuestros Océanos | Pew</a><br><br>
+							<a href="https://www.youtube.com/watch?v=2KVv0E0Ri4g" target="blank">PINGÜINOS - Vida Salvaje de la Antártida</a><br><br>
+							<a href="https://www.nationalgeographic.com.es/animales/pinguinos" target="blank">National Geographic España | Pingüinos</a>
+					</div>
+					<div class="formulario"><!--FORMULARIO DE ANALISIS-->
+						<h4 id="saber">¡Le agradeceriamos mucho si llena este formulario para poder seguir aprendiendo sobre esta especie y más!</h4>
+						<form>
+							<p>Seleccione las razones por las que visitó este sitio:</p>
+							<input type="checkbox" name="cb" value=1>Interes por los animales<br>
+							<input type="checkbox" name="cb" value=2>Investigación escolar<br>
+							<input type="checkbox" name="cb" value=3>Por recomendación<br>
+							<input type="checkbox" name="cb" value=4>Otro<br>
+							<p>Selecciona tu continente:</p>
+							<select required>
+								<option disabled selected value></option>
+								<option value="Asia">Asia</option>
+								<option value="America">América</option>
+								<option value="Africa">África</option>
+								<option value="Antartida">Antártida</option>
+								<option value="Europa">Europa</option>
+								<option value="Oceania">Oceanía</option>
+							</select>
+							<p>¿Te gustaría recibir correos con más información sobre los pingüinos?</p>
+							<input type="radio" name="opcion" value="true" id="si" required>Si
+							<input type="radio" name="opcion" value="false" id="no" required>No
+							<p>Ingresa tu correo electrónico:</p>
+							<input type="text" name="correo" placeholder="ejemplo@gmail.com" pattern="[A-Za-z-@-_-.-1-2-3-4-5-6-7-8-9-0]">
+							<br><br>
+							<input class="boton" type="submit">
+							<input class="boton" type="reset">
+						</form>
+					</div>
+					<div class="referencias" >
+						<h3 id="ref">Referencias</h3>
+							<ul>
+								<li>Interesante, M. (2020, 26 abril). 8 datos sorprendentes sobre los pingüinos. Muy Interesante. Recuperado 16 de septiembre de 2022, de <a href="https://www.muyinteresante.com.mx/junior/datos-curiosos-pinguinos/" target="blank">https://www.muyinteresante.com.mx/junior/datos-curiosos-pinguinos/</a></li>
+								<li>PINGÜINO (Características, Tipos, Qué comen, Dónde viven. . .). (s.f.). Anipedia. Recuperado 16 de septiembre de 2022, de <a href="https://www.anipedia.net/pinguinos/" target="blank">https://www.anipedia.net/pinguinos/</a></li>
+								<li>Pingüinos: historia natural y conservación. (s.f.). CONICET. Recuperado 16 de septiembre de 2022, de <a href="https://www.conicet.gov.ar/pinguinos-historia-natural-y-conservacion/" target="blank">https://www.conicet.gov.ar/pinguinos-historia-natural-y-conservacion/</a></li>
+							</ul>
+							<img src="fondop.jpg">
+							
+					</div>
+				</div>
+			</div>
+			<footer>
+				<div class="regreso"><a href="#intro" title="ir al inicio" onclick="popup()"><img class="icono" src="flecha.png"></a></div>
+				<div class="creditos"><p >&copy; Alicia Denise García Acosta 5AMP</p></div>
+			</footer>
+
+				<script type="text/javascript">
+					mostrar_hora();
+					setInterval(mostrar_hora,1000);
+				</script>
+	</body>
+</html>
